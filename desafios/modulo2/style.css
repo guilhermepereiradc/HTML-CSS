@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{background-color: #e7ecba;}
+
+main{background-color: white;margin-top: -0.5px;box-shadow: 3px 3px 2px #0000001c; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight: 500;font-size: 16px;}
+
+#home{background-image: linear-gradient(to top, #005c39, #16f083 ); height: 270px;margin-top: -20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-weight: 500px; font-size: 18px; padding-top: 20px;}
+
+#txthome{text-align: center;color: white; }
+
+
+#texth1{color: rgb(255, 255, 255); text-align: center;padding-bottom: 70px;}
+h1{font-family:idroid; color: #005c39;padding-top: 30px;}
+h2{font-family:idroid; color: #005c39; padding-top: 30px;}
+h3{padding-left: 40px;}
+p{text-align: justify; }
+ol{padding: 40px;text-align: justify;font-weight: bolder;}
+
+
+#extra{background-color: #ffffff;height: 800px;margin-top: -0.5px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 18px;box-shadow: 3px 3px 2px #00000011;padding-top: 100px; padding-bottom: -10px; text-align: justify;}
+#extra2{background-color:#98ffc3 ;height:700px;border-radius: 30px;}
+#textfinal{padding-top: 30px;}
+
+
+#cordf{background-color: #005c39;height: 700px; margin-top: -16px;box-shadow: 2px 2px 2px #00000005}
+
+#h3final{background-color: #0fca6d;height: 30px;padding-top: 10px;color: white;font-weight: bolder; margin-top: -30px;border-top-left-radius: 30px; border-top-right-radius: 30px;}
+
+#creditos{background-color: #005c39; text-align: center; color: white;font-weight: bolder;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; height: 50px;font-size: 18px;}
+

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root {
+--cor0 : #84E1AD;
+--cor1: #3BD27F;
+--cor2: #1A5C38;
+--cor3: #000000;
+--cor4: #DEDEBE;
+}
+
+
+
+/* base do código */
+
+*{margin: auto; padding: 0px; width: 100%;}
+body{font-family:Arial, Helvetica, sans-serif; background-color: #DEDEBE ; text-align: justify;}
+main{background-color: aliceblue;padding: 30px;max-width: 1000px; min-width: 300px;margin-top: -20px; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.103);}
+
+/* FIM */
+
+/* HOME */
+#home{background-image: linear-gradient(to top,#1A5C38 ,#3BD27F );margin-bottom: 20px;height: 200px; padding: 30px;}
+#home > p {color: white;text-align: center;font-weight: bold;}
+#home > #botoes {text-align: justify;color: white;margin-top: 50px;margin-left: 10px;word-spacing: 10px;font-weight: bolder; padding-left: 20px;}
+#home > h1 {color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; text-align: center;margin-bottom: 30px;padding-top: 20px;}
+
+a{color: white;text-decoration: none;}
+a:hover{background-color: #1A5C38;color: #2cf504;}
+/* FIM HOME */
+
+/*MAIN */
+main > h1 {font-family:idroid;color: #1A5C38;background-image: linear-gradient(to left, #1A5C38,#3BD27F, transparent);}
+main > h2 {font-family: idroid;color: #000000;background-image: linear-gradient(to left, #1A5C38,#3BD27F, transparent);}
+/* FIM MAIN */
+
+
+#quadrofinal{background-color: #84e1ac;margin-bottom: 20px;margin-top: 20px; height: 400px; padding: 20px;max-width: 1020px; min-width: 300px; margin: auto; padding: 20px;}
+
+#h3final{ background-color: #1A5C38;color: white; max-width: 1059px; min-width: 300px; border-top-left-radius: 20px; border-top-right-radius: 20px;margin: auto;}
+
+#quadrofinal > ul{list-style-position: inside;columns:2; padding: 20px;}
+#quadrofinal > p {margin: auto;padding: 10px; text-align: justify;width: 100%;}
+
+#background{background-color: #1A5C38;height: 400px; margin-top: 16px;box-shadow: 2px 2px 2px #00000005; padding: 0%;}
+#video{padding-top: 30px;}
+
+/*RODAPE */
+#rodape{background-color:#1A5C38;}
+#rodape > p {text-align: center;color: white;font-weight: bolder;margin-top: 20px;}
