@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset " UTF-8";
 
 body {
@@ -12,4 +13,20 @@ p {text-align: justify;}
 
  
 
+=======
+@charset " UTF-8";
+
+body {
+background-color: rgb(0, 34, 65); font-family: Arial, Helvetica, sans-serif;font-size: 20px;
+}
+
+h1 {color: rgb(255, 255, 255);font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: black;}
+
+h2 {color: rgb(245, 156, 24);}
+p {text-align: justify;}
+
+
+ 
+
+>>>>>>> 05b0a2fafd0be89a08a075443b0e172664469d71
  

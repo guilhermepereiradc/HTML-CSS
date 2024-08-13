@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 
 *{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
@@ -6,4 +7,14 @@ p{text-align: justify;padding: 10px;}
 body{background-image:linear-gradient(to left, #413221,rgb(241, 175, 99));}
 main{background-color: white;border-radius: 1%;box-shadow: 5px 5px 5px rgb(185, 131, 69);margin: auto;width: 900px;}
 h1{color:#f79e39;padding: 10px;text-shadow: 4px 1px 0px black;}
+=======
+@charset "UTF-8";
+
+*{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
+p{text-align: justify;padding: 10px;}
+
+body{background-image:linear-gradient(to left, #413221,rgb(241, 175, 99));}
+main{background-color: white;border-radius: 1%;box-shadow: 5px 5px 5px rgb(185, 131, 69);margin: auto;width: 900px;}
+h1{color:#f79e39;padding: 10px;text-shadow: 4px 1px 0px black;}
+>>>>>>> 05b0a2fafd0be89a08a075443b0e172664469d71
 h2{color: #1987d1;padding: 10px;}
