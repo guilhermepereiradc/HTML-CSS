@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@font-face {
+    font-family:fact;
+    src: url(pacote-d012/Fact-Black.ttf);
+}
+@font-face {
+    font-family: hyg ;
+    src: url(pacote-d012/HyggemandDEMO-Regular.otf);
+}
+
+
+p{white-space: pre-line; font-family: "hyg";}
+
+#flor {
+margin: auto;
+background-image: url(pacote-d012/imagens/background001.jpg);       
+background-size: cover;
+background-position: right center;
+border: 1px solid black;
+height: 400px;
+width: 55 0px;
+margin: 20px -40px;
+padding: 10px;
+}
+
+#fundot{
+font-family:"hyg";
+background-color: rgba(0, 0, 0, 0.5);
+height: 200px;
+width: 300px;
+margin: -380px -40px 130px; 
+color: white;
+padding: 20px;
+}
+
+#livro{
+    margin: auto;
+    background-image: url(pacote-d012/imagens/background002.jpg);       
+    background-size: cover;
+    background-position: right center;
+    border: 1px solid black;
+    height: 400px;
+    width: 55 0px;
+    margin: 20px -40px;
+    padding: 10px;
+}
+
+#fundotr{
+    font-family:"hyg";
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 300px;
+    margin: 50px 5px 130px; 
+    color: white;
+    padding: 40px 20px; 
+    font-style: italic;
+}
+
+#home{
+background-color: black;
+color: white;
+padding: 20px;
+text-align: center;
+margin: -10px -10px 10px -10px;
+
+}
+#home > h1{
+font-family:"fact";    
+}
+#home > p{
+font-family: Arial, Helvetica, sans-serif;
+}
+a {
+color: white;
+text-decoration: none;
+}
+
+main{
+background: white;
+height: 1900px;
+width: 300px;
+margin: auto;
+border: 1px solid black;
+padding: 20px 40px;
+}
+
+#rodape{
+text-align: center;
+color: white;
+background-color: black;
+padding: 10px;
+margin: 10px -10px -10px -20px;
+;
+}
+#rodape > p{
+font-family: Arial, Helvetica, sans-serif;
+}
