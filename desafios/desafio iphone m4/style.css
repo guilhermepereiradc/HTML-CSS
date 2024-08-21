@@ -11,5 +11,57 @@ max-width: 100%;
 }
 
 #iphone{
+position: absolute; left: 50%; top: 50%;
+transform: translate(-50%, -50%);
+}
 
+#home{
+width: 270px;
+height: 475px;
+z-index: 1;
+
+position: absolute; left: 50%; top: 50%;
+transform: translate(-50%, -50%);
+}
+
+.logo:hover{
+    zoom: 120%;
+    border: 2px solid white;
+}
+
+.logo{
+border-radius: 100%;
+box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.514);
+height: 50px;
+}
+
+#logo-home{
+position: absolute; left: 97%; top: 5%;
+transform: translate(-50%, -50%);
+
+}
+
+#logo-youtube{
+position: absolute; left: 97%; top: 13%;
+transform: translate(-50%, -50%);   
+}
+
+#logo-github{
+    position: absolute; left: 97%; top: 21%;
+    transform: translate(-50%, -50%);  
+}
+
+#logo-instagram{
+    position: absolute; left: 97%; top: 29%;
+    transform: translate(-50%, -50%);  
+}
+
+#logo-twitter{
+    position: absolute; left: 97%; top: 37%;
+    transform: translate(-50%, -50%);  
+}
+
+#logo-facebook{
+    position: absolute; left: 97%; top: 45%;
+    transform: translate(-50%, -50%);  
 }
