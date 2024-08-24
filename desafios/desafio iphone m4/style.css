@@ -11,7 +11,7 @@ max-width: 100%;
 }
 
 #desligar{
-    background-color:aqua; height: 200px; width: 200px;
+    background-color:transparent; height: 200px; width: 200px;
     z-index: 3;
     position: absolute; left:59%; top:32%;
     transform: translate(-50%, -50%);
