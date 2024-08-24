@@ -10,6 +10,23 @@ position: relative;
 max-width: 100%;
 }
 
+#desligar{
+    background-color:aqua; height: 200px; width: 200px;
+    z-index: 3;
+    position: absolute; left:59%; top:32%;
+    transform: translate(-50%, -50%);
+height: 40px; width: 5px;
+}
+
+#botao{
+    background-color:transparent; height: 200px; width: 200px;
+    z-index: 3;
+    position: absolute; left:50%; top:80%;
+    transform: translate(-50%, -50%);
+border-radius: 100%;
+height: 50px; width: 50px;
+}
+
 #iphone{
 position: absolute; left: 50%; top: 50%;
 transform: translate(-50%, -50%);
