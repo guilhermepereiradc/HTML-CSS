@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+#form{
+border: 1px solid black; width: 400px; padding: 20px;
+position: absolute; left: 50%; top: 50%;
+transform: translate(-50%, -50%);
+}
+
+#form > h1{
+
+text-align: center;
+}
+    </style>
 </head>
 <body>
-    <h1>Teste de Formulario</h1>
 
-    <form autocomplete="on">
-    <p><label for="ialuno">Aluno</label> <input type="text" name=""aluno id="ialuno" autocomplete="name">></p> 
-    <p><label for="inota">Nota </label><input type="number" name="nota" id="inota"> </p>
-    <P><label for="ipl"></label> <input type="month" name="pl" id="ipl"></P>
-    
-    </form>
+    <div id="form">
+        <h1>Notas</h1>
+        <form autocomplete="on" method="post">
+        <p><label for="ialuno">Aluno</label> <input type="text" name=""aluno id="ialuno" autocomplete="name" required>></p>
+        <p><label for="inota">Nota </label><input type="number" name="nota" id="inota" min="0" max="10" required step="0.1" > </p>
+        <P><label for="ipl"> Periodo Letivo </label> <input type="month" name="pl" id="ipl" required></P>
+          <p><label for="idia">Dia da Prova </label><input required type="date" name="dia" id="idia"></p>
+        <input type="submit">
+        
+        </form>
+    </div>
+
 </body>
 </html>
